@@ -9,7 +9,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.time.Duration;
 
 public class TestBaseBeforeClass {
-
     static WebDriver driver ;
     @BeforeClass
     public static void setup(){
@@ -32,6 +31,5 @@ public class TestBaseBeforeClass {
             throw new RuntimeException();
         }
     }
-
 
 }
